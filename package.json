@@ -1,0 +1,19 @@
+{
+  "name": "ghost-host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timurbl/Ghost-Host.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timurbl/Ghost-Host/issues"
+  },
+  "homepage": "https://github.com/Timurbl/Ghost-Host#readme"
+}
