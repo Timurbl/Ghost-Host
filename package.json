@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Timurbl/Ghost-Host/issues"
   },
-  "homepage": "https://github.com/Timurbl/Ghost-Host#readme"
+  "homepage": "https://github.com/Timurbl/Ghost-Host#readme",
+  "dependencies": {
+    "sass": "^1.22.3"
+  }
 }
