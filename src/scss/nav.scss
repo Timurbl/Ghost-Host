@@ -1,0 +1,66 @@
+@import "partials/params";
+@import "partials/mixins";
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: $view-port;
+  padding: 0 30px;
+
+  background-color: transparent;
+
+  &__brand {
+    color: #fff;
+  }
+  &__menu {
+    @include clear-list;
+    display: flex;
+    height: $nav-height;
+
+  }
+  &__item {
+    position: relative;
+    margin: 35px 22px 0;
+
+    &:hover {
+      .nav__border--hover {
+        opacity: 1;
+      }
+    }
+
+  }
+  &__link {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    &::after {
+      content: '';
+    }
+    &--active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      display: block;
+      height: 1px;
+      width: 100%;
+      background-color: #fff;
+    }
+  }
+  &__border--hover {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0;
+    transition: .3s opacity;
+  }
+}

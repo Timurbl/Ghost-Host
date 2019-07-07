@@ -1,0 +1,23 @@
+@import "partials/params";
+@import "partials/mixins";
+
+.header {
+  @include flex-center;
+  flex: 1 0 auto;
+  color: #fff;
+  background: url("../../public/img/header_bg.jpg") no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+  &__subtitle {
+    font-size: 32px;
+    line-height: 47px;
+    font-style: italic;
+
+  }
+}

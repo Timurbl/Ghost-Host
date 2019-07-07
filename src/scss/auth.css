@@ -1,0 +1,13 @@
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+.auth__link {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=auth.css.map */

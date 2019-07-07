@@ -1,0 +1,60 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 1200px;
+  padding: 0 30px;
+  background-color: transparent;
+}
+.nav__brand {
+  color: #fff;
+}
+.nav__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  height: 90px;
+}
+.nav__item {
+  position: relative;
+  margin: 35px 22px 0;
+}
+.nav__item:hover .nav__border--hover {
+  opacity: 1;
+}
+.nav__link {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+}
+.nav__link::after {
+  content: "";
+}
+.nav__link--active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
+.nav__border--hover {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0;
+  transition: 0.3s opacity;
+}
+
+/*# sourceMappingURL=nav.css.map */

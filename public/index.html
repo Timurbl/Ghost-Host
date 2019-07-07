@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <title>Ghost host</title>
     <link rel="stylesheet" href="bundle.min.css">
+    <link rel="stylesheet" href="../src/scss/main.css">
+    <link rel="stylesheet" href="../src/scss/nav.css">
+    <link rel="stylesheet" href="../src/scss/header.css">
+    <link rel="stylesheet" href="../src/scss/auth.css">
 </head>
 <body>
-
+<div class="wrapper">
+    <div class="first-screen">
+        <nav class="nav view-port">
+                <div class="nav__brand">
+                    <img src="img/Logo.png" alt="logo">
+                </div>
+                <ul class="nav__menu">
+                    <li class="nav__item">
+                        <a class="nav__link nav__link--active" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Domain
+                            <span class="nav__border--hover"></span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Hosting
+                            <span class="nav__border--hover"></span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Clients
+                            <span class="nav__border--hover"></span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Blog
+                            <span class="nav__border--hover"></span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Support
+                            <span class="nav__border--hover"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        <header class="header">
+            <h1 class="header__title">
+                Hello!
+            </h1>
+            <h3 class="header__subtitle">We love our work...</h3>
+            <h3 class="header__subtitle">And we are talking it seriously...</h3>
+        </header>
+    </div>
+    <nav class="auth view-port">
+        <a class="auth__link" href="#">Login</a>
+        <a class="auth__link" href="#">Register</a>
+    </nav>
+</div>
 </body>
 </html>

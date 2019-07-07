@@ -17,6 +17,22 @@ a {
 }
 
 .view-port {
-  max-width: $view-port;
+  width: $view-port;
   margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+
+  background-color: #000;
+}
+
+.first-screen {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100vh;
 }
