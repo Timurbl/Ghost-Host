@@ -9,5 +9,8 @@
   font-size: 22px;
   text-transform: uppercase;
 }
+.auth__link:hover {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=auth.css.map */

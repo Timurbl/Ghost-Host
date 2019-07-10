@@ -11,5 +11,9 @@
     color: #fff;
     font-size: 22px;
     text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
