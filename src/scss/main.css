@@ -35,4 +35,8 @@ a {
   height: 100vh;
 }
 
+div.hidden {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */
