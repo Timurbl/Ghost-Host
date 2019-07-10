@@ -1,0 +1,57 @@
+@import "partials/params";
+@import "partials/mixins";
+
+.about {
+  padding: 40px;
+  background-color: #fff;
+
+  &__content {
+    display: flex;
+    padding-top: 20px;
+  }
+  &__text {
+    width: 50%;
+    font-size: 18px;
+    color: #747474;
+    line-height: 27px;
+    border-right: 5px dotted #d4d4d4;
+  }
+  &__title {
+    margin-bottom: 35px;
+    font-size: 35px;
+    color: #303030;
+  }
+  &__imgs {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  &__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & .profile__img {
+      margin-bottom: 18px;
+    }
+    & .profile__name {
+      margin-bottom: 10px;
+      font-size: 17px;
+      color: #303030;
+    }
+    & .profile__job {
+      margin-bottom: 13px;
+      font-size: 15px;
+      color: #8e8e8e;
+    }
+    & .profile__soc {
+
+    }
+    & .profile__icon {
+      margin-right: 10px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
