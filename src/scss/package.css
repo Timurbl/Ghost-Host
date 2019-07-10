@@ -1,0 +1,127 @@
+.package {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.package__tiles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -275px;
+  height: 600px;
+  margin-bottom: 100px;
+}
+.package__tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.package__tile .tile__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+.package__tile .tile__title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.package__tile .tile__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 20px 0;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+.package__tile .tile__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #cbcbcb;
+  font-size: 14px;
+}
+.package__tile .tile__item .item__value {
+  margin-right: 25px;
+}
+.package__tile .tile__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.package__tile .tile__footer .tile__cost {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid;
+}
+.package__tile .tile__footer .tile__cost .cost__price {
+  font-size: 20px;
+  font-weight: bold;
+}
+.package__tile .tile__footer .tile__cost .cost__date {
+  font-size: 10px;
+  opacity: 0.7;
+}
+.package__tile .tile__plan {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.package__tile::before {
+  position: absolute;
+  display: block;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3px;
+}
+.package__tile--yellow .item__value {
+  color: #f9d423;
+}
+.package__tile--yellow .tile__footer .tile__cost {
+  border-color: #f9d423;
+}
+.package__tile--yellow::before {
+  background-color: #f9d423;
+}
+.package__tile--grey .item__value {
+  color: #7f8c8d;
+}
+.package__tile--grey .tile__footer .tile__cost {
+  border-color: #7f8c8d;
+}
+.package__tile--grey::before {
+  background-color: #7f8c8d;
+}
+.package__tile--red .item__value {
+  color: #f85f40;
+}
+.package__tile--red .tile__footer .tile__cost {
+  border-color: #f85f40;
+}
+.package__tile--red::before {
+  background-color: #f85f40;
+}
+.package__tile--green .item__value {
+  color: #1abc9c;
+}
+.package__tile--green .tile__footer .tile__cost {
+  border-color: #1abc9c;
+}
+.package__tile--green::before {
+  background-color: #1abc9c;
+}
+.package__border {
+  border-bottom: 5px dotted #d4d4d4;
+}
+
+/*# sourceMappingURL=package.css.map */
