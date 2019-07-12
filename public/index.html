@@ -316,7 +316,7 @@
             </div>
         </section>
         <section class="slider">
-            <div class="slider__slide">
+            <div class="slider__slide" data-slide="1">
                 <div class="slider__quote">
                     “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
                     interdum dolor pulvinar vitae.”
@@ -324,13 +324,13 @@
                 <div class="slider__info">
                     <div class="slider__name">John Doe</div>
                     <div class="slider__icons">
-                        <div class="span slider__icon slider__icon--active"></div>
-                        <div class="span slider__icon"></div>
-                        <div class="span slider__icon"></div>
+                        <div class="span slider__icon slider__icon--active" data-id="1"></div>
+                        <div class="span slider__icon" data-id="2"></div>
+                        <div class="span slider__icon" data-id="3"></div>
                     </div>
                 </div>
             </div>
-            <div class="slider__slide hidden">
+            <div class="slider__slide hidden" data-slide="2">
                 <div class="slider__quote">
                     “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
                     interdum dolor pulvinar vitae.”
@@ -338,13 +338,13 @@
                 <div class="slider__info">
                     <div class="slider__name">Jonny Doe</div>
                     <div class="slider__icons">
-                        <div class="span slider__icon"></div>
-                        <div class="span slider__icon slider__icon--active"></div>
-                        <div class="span slider__icon"></div>
+                        <div class="span slider__icon" data-id="1"></div>
+                        <div class="span slider__icon slider__icon--active" data-id="2"></div>
+                        <div class="span slider__icon" data-id="3"></div>
                     </div>
                 </div>
             </div>
-            <div class="slider__slide hidden">
+            <div class="slider__slide hidden" data-slide="3">
                 <div class="slider__quote">
                     “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
                     interdum dolor pulvinar vitae.”
@@ -352,13 +352,12 @@
                 <div class="slider__info">
                     <div class="slider__name">Johnathan Doe</div>
                     <div class="slider__icons">
-                        <div class="span slider__icon"></div>
-                        <div class="span slider__icon"></div>
-                        <div class="span slider__icon slider__icon--active"></div>
+                        <div class="span slider__icon" data-id="1"></div>
+                        <div class="span slider__icon" data-id="2"></div>
+                        <div class="span slider__icon slider__icon--active" data-id="3"></div>
                     </div>
                 </div>
             </div>
-
         </section>
         <section class="features">
             <div class="features__content view-port">
@@ -465,5 +464,7 @@
         </section>
     </footer>
 </div>
+
+<script src="slider.js"></script>
 </body>
 </html>
