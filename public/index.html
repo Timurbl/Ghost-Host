@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../src/scss/about.css">
     <link rel="stylesheet" href="../src/scss/slider.css">
     <link rel="stylesheet" href="../src/scss/features.css">
+    <link rel="stylesheet" href="../src/scss/footer.css">
 </head>
 <body>
 <div class="wrapper">
@@ -67,333 +68,402 @@
             <h3 class="header__subtitle">And we are talking it seriously...</h3>
         </header>
     </div>
-    <nav class="auth view-port">
-        <a class="auth__link" href="#">Login</a>
-        <a class="auth__link" href="#">Register</a>
-    </nav>
-    <section class="buy">
-        <div class="buy__content view-port">
-            <h2 class="buy__title">Would you like to buy a new domain ?</h2>
-            <h4 class="buy__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor
-                mauris ac nulla interdum, id molestier.</h4>
-            <div class="buy__input-wrapper">
-                <div class="buy__www buy__help">www</div>
-                <div class="buy__input-block">
-                    <input type="text" class="buy__input" placeholder="What do you want?">
-                    <div class="buy__domain">.com</div>
+    <main>
+        <nav class="auth view-port">
+            <a class="auth__link" href="#">Login</a>
+            <a class="auth__link" href="#">Register</a>
+        </nav>
+        <section class="buy">
+            <div class="buy__content view-port">
+                <h2 class="buy__title">Would you like to buy a new domain ?</h2>
+                <h4 class="buy__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor
+                    mauris ac nulla interdum, id molestier.</h4>
+                <div class="buy__input-wrapper">
+                    <div class="buy__www buy__help">www</div>
+                    <div class="buy__input-block">
+                        <input type="text" class="buy__input" placeholder="What do you want?">
+                        <div class="buy__domain">.com</div>
+                    </div>
+                    <div class="buy__select buy__help">
+                        <span class="buy__icon">&#9660;</span>
+                        <ul class="select__dropdown">
+                            <li class="select__item">.com</li>
+                            <li class="select__item">.net</li>
+                            <li class="select__item">.ru</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="buy__select buy__help">
-                    <span class="buy__icon">&#9660;</span>
-                    <ul class="select__dropdown">
-                        <li class="select__item">.com</li>
-                        <li class="select__item">.net</li>
-                        <li class="select__item">.ru</li>
+                <div class="buy__table">
+                    <div class="table__row">
+                        <div class="table__cell table__cell--top">.COM</div>
+                        <div class="table__cell table__cell--top">1 Year</div>
+                        <div class="table__cell table__cell--top">$9.00 USD</div>
+                        <div class="table__cell table__cell--top">Transfer Price No</div>
+                    </div>
+                    <div class="table__row">
+                        <div class="table__cell table__cell--bottom">.NET</div>
+                        <div class="table__cell table__cell--bottom">1 Year</div>
+                        <div class="table__cell table__cell--bottom">$9.00 USD</div>
+                        <div class="table__cell table__cell--bottom">Transfer Price No</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="package">
+            <img src="img/package_bg.jpg" class="package__img" alt="">
+            <article class="package__tiles view-port">
+                <div class="package__tile package__tile--yellow">
+                    <img class="tile__img" src="img/anchor.png" alt="">
+                    <div class="tile__title">Basic package</div>
+                    <ul class="tile__list">
+                        <li class="tile__item">
+                            <span class="item__key">Disk Space (GB)</span>
+                            <span class="item__value">50</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Subdomains</span>
+                            <span class="item__value">50</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Transfer (GB)</span>
+                            <span class="item__value">50</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Data bases</span>
+                            <span class="item__value">1</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Dashboards</span>
+                            <span class="item__value">1</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Control Panel & FTP</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Free Support</span>
+                        </li>
                     </ul>
-                </div>
-            </div>
-            <div class="buy__table">
-                <div class="table__row">
-                    <div class="table__cell table__cell--top">.COM</div>
-                    <div class="table__cell table__cell--top">1 Year</div>
-                    <div class="table__cell table__cell--top">$9.00 USD</div>
-                    <div class="table__cell table__cell--top">Transfer Price No</div>
-                </div>
-                <div class="table__row">
-                    <div class="table__cell table__cell--bottom">.NET</div>
-                    <div class="table__cell table__cell--bottom">1 Year</div>
-                    <div class="table__cell table__cell--bottom">$9.00 USD</div>
-                    <div class="table__cell table__cell--bottom">Transfer Price No</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="package">
-        <img src="img/package_bg.jpg" class="package__img" alt="">
-        <article class="package__tiles view-port">
-            <div class="package__tile package__tile--yellow">
-                <img class="tile__img" src="img/anchor.png">
-                <div class="tile__title">Basic package</div>
-                <ul class="tile__list">
-                    <li class="tile__item">
-                        <span class="item__key">Disk Space (GB)</span>
-                        <span class="item__value">50</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Subdomains</span>
-                        <span class="item__value">50</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Transfer (GB)</span>
-                        <span class="item__value">50</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Data bases</span>
-                        <span class="item__value">1</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Dashboards</span>
-                        <span class="item__value">1</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Control Panel & FTP</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Free Support</span>
-                    </li>
-                </ul>
-                <div class="tile__footer">
-                    <div class="tile__cost">
-                        <span class="cost__price">$15</span> / <span class="cost__date">Mo</span>
-                    </div>
-                    <div class="tile__plan">Select plan</div>
-                </div>
-            </div>
-            <div class="package__tile package__tile--grey">
-                <img class="tile__img" src="img/star.png">
-                <div class="tile__title">Normal package</div>
-                <ul class="tile__list">
-                    <li class="tile__item">
-                        <span class="item__key">Disk Space (GB)</span>
-                        <span class="item__value">100</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Subdomains</span>
-                        <span class="item__value">100</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Transfer (GB)</span>
-                        <span class="item__value">100</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Data bases</span>
-                        <span class="item__value">2</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Dashboards</span>
-                        <span class="item__value">2</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Control Panel & FTP</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Free Support</span>
-                    </li>
-                </ul>
-                <div class="tile__footer">
-                    <div class="tile__cost">
-                        <span class="cost__price">$30</span> / <span class="cost__date">Mo</span>
-                    </div>
-                    <div class="tile__plan">Select plan</div>
-                </div>
-            </div>
-            <div class="package__tile package__tile--red">
-                <img class="tile__img" src="img/star-red.png">
-                <div class="tile__title">Big package</div>
-                <ul class="tile__list">
-                    <li class="tile__item">
-                        <span class="item__key">Disk Space (GB)</span>
-                        <span class="item__value">150</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Subdomains</span>
-                        <span class="item__value">150</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Transfer (GB)</span>
-                        <span class="item__value">150</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Data bases</span>
-                        <span class="item__value">4</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Dashboards</span>
-                        <span class="item__value">4</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Control Panel & FTP</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Free Support</span>
-                    </li>
-                </ul>
-                <div class="tile__footer">
-                    <div class="tile__cost">
-                        <span class="cost__price">$40</span> / <span class="cost__date">Mo</span>
-                    </div>
-                    <div class="tile__plan">Select plan</div>
-                </div>
-            </div>
-            <div class="package__tile package__tile--green">
-                <img class="tile__img" src="img/diamond.png">
-                <div class="tile__title">Biggest package</div>
-                <ul class="tile__list">
-                    <li class="tile__item">
-                        <span class="item__key">Disk Space (GB)</span>
-                        <span class="item__value">250</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Subdomains</span>
-                        <span class="item__value">250</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Transfer (GB)</span>
-                        <span class="item__value">250</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Data bases</span>
-                        <span class="item__value">6</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Dashboards</span>
-                        <span class="item__value">6</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Control Panel & FTP</span>
-                    </li>
-                    <li class="tile__item">
-                        <span class="item__key">Free Support</span>
-                    </li>
-                </ul>
-                <div class="tile__footer">
-                    <div class="tile__cost">
-                        <span class="cost__price">$70</span> / <span class="cost__date">Mo</span>
-                    </div>
-                    <div class="tile__plan">Select plan</div>
-                </div>
-            </div>
-        </article>
-        <div class="package__border"></div>
-    </section>
-    <section class="about">
-        <div class="about__content view-port">
-            <div class="about__text">
-                <div class="about__title">
-                    About us
-                </div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                    Praesent feugiat eget diam sit amet molestie.Curabitur.<br>
-                    ut ipsum bibendum tortor lacinia fermentum nec joeıa.<br>
-                    Mauris at augue libero. Fusce posuere, sapien nec poır.<br>
-                    Uaee augsuada sed mauris in tincidunt...
-                </p>
-            </div>
-            <div class="about__imgs">
-                <div class="about__profile">
-                    <img class="profile__img" src="img/prof1.png" alt="prof1">
-                    <div class="profile__name">Jonny Doe</div>
-                    <div class="profile__job">Designer</div>
-                    <div class="profile__soc">
-                        <img class="profile__icon" src="img/fa-facebook.png" alt="facebook">
-                        <img class="profile__icon" src="img/fa-twitter.png" alt="twitter">
-                        <img class="profile__icon" src="img/fa-link.png" alt="link">
+                    <div class="tile__footer">
+                        <div class="tile__cost">
+                            <span class="cost__price">$15</span> / <span class="cost__date">Mo</span>
+                        </div>
+                        <div class="tile__plan">Select plan</div>
                     </div>
                 </div>
-                <div class="about__profile">
-                    <img class="profile__img" src="img/prof2.png" alt="prof2">
-                    <div class="profile__name">John Doe</div>
-                    <div class="profile__job">Designer</div>
-                    <div class="profile__soc">
-                        <img class="profile__icon" src="img/fa-facebook.png" alt="facebook">
-                        <img class="profile__icon" src="img/fa-twitter.png" alt="twitter">
-                        <img class="profile__icon" src="img/fa-link.png" alt="link">
+                <div class="package__tile package__tile--grey">
+                    <img class="tile__img" src="img/star.png" alt="">
+                    <div class="tile__title">Normal package</div>
+                    <ul class="tile__list">
+                        <li class="tile__item">
+                            <span class="item__key">Disk Space (GB)</span>
+                            <span class="item__value">100</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Subdomains</span>
+                            <span class="item__value">100</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Transfer (GB)</span>
+                            <span class="item__value">100</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Data bases</span>
+                            <span class="item__value">2</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Dashboards</span>
+                            <span class="item__value">2</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Control Panel & FTP</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Free Support</span>
+                        </li>
+                    </ul>
+                    <div class="tile__footer">
+                        <div class="tile__cost">
+                            <span class="cost__price">$30</span> / <span class="cost__date">Mo</span>
+                        </div>
+                        <div class="tile__plan">Select plan</div>
                     </div>
                 </div>
-                <div class="about__profile">
-                    <img class="profile__img" src="img/prof3.png" alt="prof3">
-                    <div class="profile__name">Johnathan Doe</div>
-                    <div class="profile__job">Designer</div>
-                    <div class="profile__soc">
-                        <img class="profile__icon" src="img/fa-facebook.png" alt="facebook">
-                        <img class="profile__icon" src="img/fa-twitter.png" alt="twitter">
-                        <img class="profile__icon" src="img/fa-link.png" alt="link">
+                <div class="package__tile package__tile--red">
+                    <img class="tile__img" src="img/star-red.png" alt="">
+                    <div class="tile__title">Big package</div>
+                    <ul class="tile__list">
+                        <li class="tile__item">
+                            <span class="item__key">Disk Space (GB)</span>
+                            <span class="item__value">150</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Subdomains</span>
+                            <span class="item__value">150</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Transfer (GB)</span>
+                            <span class="item__value">150</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Data bases</span>
+                            <span class="item__value">4</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Dashboards</span>
+                            <span class="item__value">4</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Control Panel & FTP</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Free Support</span>
+                        </li>
+                    </ul>
+                    <div class="tile__footer">
+                        <div class="tile__cost">
+                            <span class="cost__price">$40</span> / <span class="cost__date">Mo</span>
+                        </div>
+                        <div class="tile__plan">Select plan</div>
+                    </div>
+                </div>
+                <div class="package__tile package__tile--green">
+                    <img class="tile__img" src="img/diamond.png" alt="">
+                    <div class="tile__title">Biggest package</div>
+                    <ul class="tile__list">
+                        <li class="tile__item">
+                            <span class="item__key">Disk Space (GB)</span>
+                            <span class="item__value">250</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Subdomains</span>
+                            <span class="item__value">250</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Transfer (GB)</span>
+                            <span class="item__value">250</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Data bases</span>
+                            <span class="item__value">6</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Dashboards</span>
+                            <span class="item__value">6</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Control Panel & FTP</span>
+                        </li>
+                        <li class="tile__item">
+                            <span class="item__key">Free Support</span>
+                        </li>
+                    </ul>
+                    <div class="tile__footer">
+                        <div class="tile__cost">
+                            <span class="cost__price">$70</span> / <span class="cost__date">Mo</span>
+                        </div>
+                        <div class="tile__plan">Select plan</div>
+                    </div>
+                </div>
+            </article>
+            <div class="package__border"></div>
+        </section>
+        <section class="about">
+            <div class="about__content view-port">
+                <div class="about__text">
+                    <div class="about__title">
+                        About us
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                        Praesent feugiat eget diam sit amet molestie.Curabitur.<br>
+                        ut ipsum bibendum tortor lacinia fermentum nec joeıa.<br>
+                        Mauris at augue libero. Fusce posuere, sapien nec poır.<br>
+                        Uaee augsuada sed mauris in tincidunt...
+                    </p>
+                </div>
+                <div class="about__imgs">
+                    <div class="about__profile">
+                        <img class="profile__img" src="img/prof1.png" alt="prof1">
+                        <div class="profile__name">Jonny Doe</div>
+                        <div class="profile__job">Designer</div>
+                        <div class="profile__soc">
+                            <img class="profile__icon" src="img/fa-facebook.png" alt="facebook">
+                            <img class="profile__icon" src="img/fa-twitter.png" alt="twitter">
+                            <img class="profile__icon" src="img/fa-link.png" alt="link">
+                        </div>
+                    </div>
+                    <div class="about__profile">
+                        <img class="profile__img" src="img/prof2.png" alt="prof2">
+                        <div class="profile__name">John Doe</div>
+                        <div class="profile__job">Designer</div>
+                        <div class="profile__soc">
+                            <img class="profile__icon" src="img/fa-facebook.png" alt="facebook">
+                            <img class="profile__icon" src="img/fa-twitter.png" alt="twitter">
+                            <img class="profile__icon" src="img/fa-link.png" alt="link">
+                        </div>
+                    </div>
+                    <div class="about__profile">
+                        <img class="profile__img" src="img/prof3.png" alt="prof3">
+                        <div class="profile__name">Johnathan Doe</div>
+                        <div class="profile__job">Designer</div>
+                        <div class="profile__soc">
+                            <img class="profile__icon" src="img/fa-facebook.png" alt="facebook">
+                            <img class="profile__icon" src="img/fa-twitter.png" alt="twitter">
+                            <img class="profile__icon" src="img/fa-link.png" alt="link">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="slider">
-        <div class="slider__slide">
-            <div class="slider__quote">
-                “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
-                interdum dolor pulvinar vitae.”
-            </div>
-            <div class="slider__info">
-                <div class="slider__name">John Doe</div>
-                <div class="slider__icons">
-                    <div class="span slider__icon slider__icon--active"></div>
-                    <div class="span slider__icon"></div>
-                    <div class="span slider__icon"></div>
+        </section>
+        <section class="slider">
+            <div class="slider__slide">
+                <div class="slider__quote">
+                    “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
+                    interdum dolor pulvinar vitae.”
+                </div>
+                <div class="slider__info">
+                    <div class="slider__name">John Doe</div>
+                    <div class="slider__icons">
+                        <div class="span slider__icon slider__icon--active"></div>
+                        <div class="span slider__icon"></div>
+                        <div class="span slider__icon"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="slider__slide hidden">
-            <div class="slider__quote">
-                “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
-                interdum dolor pulvinar vitae.”
-            </div>
-            <div class="slider__info">
-                <div class="slider__name">Jonny Doe</div>
-                <div class="slider__icons">
-                    <div class="span slider__icon"></div>
-                    <div class="span slider__icon slider__icon--active"></div>
-                    <div class="span slider__icon"></div>
+            <div class="slider__slide hidden">
+                <div class="slider__quote">
+                    “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
+                    interdum dolor pulvinar vitae.”
+                </div>
+                <div class="slider__info">
+                    <div class="slider__name">Jonny Doe</div>
+                    <div class="slider__icons">
+                        <div class="span slider__icon"></div>
+                        <div class="span slider__icon slider__icon--active"></div>
+                        <div class="span slider__icon"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="slider__slide hidden">
-            <div class="slider__quote">
-                “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
-                interdum dolor pulvinar vitae.”
-            </div>
-            <div class="slider__info">
-                <div class="slider__name">Johnathan Doe</div>
-                <div class="slider__icons">
-                    <div class="span slider__icon"></div>
-                    <div class="span slider__icon"></div>
-                    <div class="span slider__icon slider__icon--active"></div>
+            <div class="slider__slide hidden">
+                <div class="slider__quote">
+                    “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui<br>
+                    interdum dolor pulvinar vitae.”
+                </div>
+                <div class="slider__info">
+                    <div class="slider__name">Johnathan Doe</div>
+                    <div class="slider__icons">
+                        <div class="span slider__icon"></div>
+                        <div class="span slider__icon"></div>
+                        <div class="span slider__icon slider__icon--active"></div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </section>
-    <section class="features">
-        <div class="features__content view-port">
-            <div class="features__tile">
-                <div class="tile__icon tile__icon--yellow"><img src="img/fa-flash.png"></div>
-                <h3 class="tile__title">Fast Servers</h3>
-                <p class="tile__text">
-                    Nulla dapibus neque augue, quis<br>
-                    tincidunt tortor aliquam vitae.
-                </p>
+        </section>
+        <section class="features">
+            <div class="features__content view-port">
+                <div class="features__tile">
+                    <div class="tile__icon tile__icon--yellow"><img src="img/fa-flash.png" alt=""></div>
+                    <h3 class="tile__title">Fast Servers</h3>
+                    <p class="tile__text">
+                        Nulla dapibus neque augue, quis<br>
+                        tincidunt tortor aliquam vitae.
+                    </p>
+                </div>
+                <div class="features__tile">
+                    <div class="tile__icon tile__icon--blue"><img src="img/fa-cloud.png" alt=""></div>
+                    <h3 class="tile__title">Cloud Servers</h3>
+                    <p class="tile__text">
+                        Nulla dapibus neque augue, quis<br>
+                        tincidunt tortor aliquam vitae.
+                    </p>
+                </div>
+                <div class="features__tile">
+                    <div class="tile__icon tile__icon--grey"><img src="img/fa-arrows.png" alt=""></div>
+                    <h3 class="tile__title">Domain Transfer</h3>
+                    <p class="tile__text">
+                        Nulla dapibus neque augue, quis<br>
+                        tincidunt tortor aliquam vitae.
+                    </p>
+                </div>
+                <div class="features__tile">
+                    <div class="tile__icon tile__icon--orange"><img src="img/fa-comments.png" alt=""></div>
+                    <h3 class="tile__title">Live Support</h3>
+                    <p class="tile__text">
+                        Nulla dapibus neque augue, quis<br>
+                        tincidunt tortor aliquam vitae.
+                    </p>
+                </div>
             </div>
-            <div class="features__tile">
-                <div class="tile__icon tile__icon--blue"><img src="img/fa-cloud.png"></div>
-                <h3 class="tile__title">Cloud Servers</h3>
-                <p class="tile__text">
-                    Nulla dapibus neque augue, quis<br>
-                    tincidunt tortor aliquam vitae.
-                </p>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__header view-port">
+            <div class="footer__brand">
+                <img class="footer__brand-image" src="img/Logo.png" alt="Logo">
             </div>
-            <div class="features__tile">
-                <div class="tile__icon tile__icon--grey"><img src="img/fa-arrows.png"></div>
-                <h3 class="tile__title">Domain Transfer</h3>
-                <p class="tile__text">
-                    Nulla dapibus neque augue, quis<br>
-                    tincidunt tortor aliquam vitae.
-                </p>
-            </div>
-            <div class="features__tile">
-                <div class="tile__icon tile__icon--orange"><img src="img/fa-comments.png"></div>
-                <h3 class="tile__title">Live Support</h3>
-                <p class="tile__text">
-                    Nulla dapibus neque augue, quis<br>
-                    tincidunt tortor aliquam vitae.
-                </p>
-            </div>
+            <ul class="footer__nav nav-footer">
+                <li class="nav-footer__item">
+                    <a href="#" class="nav-footer__link nav-footer__link--active">Home</a>
+                </li>
+                <li class="nav-footer__item">
+                    <a href="#" class="nav-footer__link">About us</a>
+                </li>
+                <li class="nav-footer__item">
+                    <a href="#" class="nav-footer__link">Blog</a>
+                </li>
+                <li class="nav-footer__item">
+                    <a href="#" class="nav-footer__link">Policy</a>
+                </li>
+                <li class="nav-footer__item">
+                    <a href="#" class="nav-footer__link">Contact</a>
+                </li>
+            </ul>
         </div>
-    </section>
+        <section class="footer__content view-port">
+            <p class="footer__about">
+                Lorem ipsum dolor sit amet, consecteteeseurı
+                adipiscing elit. Donec mollis commodoeesene
+                que, non commodo risus volutpat vel.
+            </p>
+            <div class="footer__list-wrapper">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <span class="footer__link-dec">&rsaquo;</span><a class="footer__link footer__link--active" href="#">Support</a>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__link-dec">&rsaquo;</span><a class="footer__link" href="#">Site Map</a>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__link-dec">&rsaquo;</span><a class="footer__link" href="#">Account</a>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__link-dec">&rsaquo;</span><a class="footer__link" href="#">Whois Search</a>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__link-dec">&rsaquo;</span><a class="footer__link" href="#">Product Catalog</a>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__link-dec">&rsaquo;</span><a class="footer__link" href="#">Web Mail</a>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__link-dec">&rsaquo;</span><a class="footer__link" href="#">Shortcodes</a>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__link-dec">&rsaquo;</span><a class="footer__link" href="#">Find Domain</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <img class="footer__phone" src="img/fa-phone.png" alt=""> 0000-0000-0000<br>
+                <img class="footer__mail" src="img/fa-envelope.png" alt=""> informationteam@ghosthost.com<br>
+                <p class="footer__address">
+                    Lorem Ipsum Street, Lorem Avenue,
+                    Lorem Ipsum
+                </p>
+            </div>
+        </section>
+    </footer>
 </div>
 </body>
 </html>

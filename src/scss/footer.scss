@@ -1,0 +1,109 @@
+@import "partials/params";
+@import "partials/mixins";
+
+.footer {
+  background-color: #2a2a2a;
+  color: #686868;
+  font-size: 15px;
+  padding: 20px 0 35px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4a4a4a;
+  }
+  &__brand {
+
+  }
+  &__brand-image {
+    opacity: 0.5;
+  }
+
+  &__nav {}
+
+  &__content {
+    margin-top: 35px;
+    display: flex;
+  }
+  &__about {
+    box-sizing: border-box;
+    width: 33%;
+    padding-right: 80px;
+    border-right: 1px solid #393939;
+    line-height: 25px;
+  }
+  &__list-wrapper {
+    width: 33%;
+    border-right: 1px solid #393939;
+    display: flex;
+    justify-content: center;
+  }
+  &__list {
+    width: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include clear-list;
+  }
+  &__item {
+    width: 41%;
+    line-height: 29px;
+  }
+  &__link {
+    color: #686868;
+    text-decoration: none;
+  }
+  &__link--active {
+    color: #ffffff;
+  }
+  &__link:not(&__link--active):hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  &__link-dec {
+    margin-right: 10px;
+  }
+
+  &__contacts {
+    box-sizing: border-box;
+    width: 33%;
+    padding-left: 75px;
+
+    line-height: 27px;
+  }
+  &__phone {
+    margin-right: 10px;
+  }
+  &__mail {
+    margin-right: 10px;
+  }
+  &__address {
+
+  }
+}
+
+.nav-footer {
+  @include clear-list;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+
+  &__item {
+  }
+  &__link {
+    font-size: 13px;
+    text-decoration: none;
+    color: #686868;
+  }
+  &__link--active {
+    color: #ffffff;
+  }
+  &__link:not(&__link--active):hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
